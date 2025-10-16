@@ -42,22 +42,19 @@ Designed to demonstrate **grid-based pathfinding** and simple **reactive AI**.
 ## 📁 File Structure
 
 include/
-  Definitions.h   # Constants and tuning parameters
-  Entity.h        # Base class for drawable/updateable entities
-  Grid.h          # Maze generation, coin logic, rendering
-  Ghost.h         # Ghost class (A* logic)
-  Pacman.h        # Pac-Man AI (BFS + flee)
-  Pathfinding.h   # Cell type + pathfinding utilities
+Definitions.h   # Constants and tuning parameters
+Entity.h        # Base class for drawable/updateable entities
+Grid.h          # Maze generation, coin logic, rendering
+Ghost.h         # Ghost class (A* logic)
+Pacman.h        # Pac-Man AI (BFS + flee)
+Pathfinding.h   # Cell type + pathfinding utilities
 
 src/
-  Grid.cpp        # Maze + coin generation and draw
-  Ghost.cpp       # A* ghost movement
-  Pacman.cpp      # BFS/flee Pac-Man logic
-  Pathfinding.cpp # BFS, A*, helpers
-  main.cpp        # Game loop, rendering, input, HUD
-</code></pre>
-
-*(Using `<pre><code>` ensures GitHub preserves indentation and avoids escaping issues.)*
+Grid.cpp        # Maze + coin generation and draw
+Ghost.cpp       # A* ghost movement
+Pacman.cpp      # BFS/flee Pac-Man logic
+Pathfinding.cpp # BFS, A*, helpers
+main.cpp        # Game loop, rendering, input, HUD
 
 ---
 
